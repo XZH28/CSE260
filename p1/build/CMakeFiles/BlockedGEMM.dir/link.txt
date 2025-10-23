@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/BlockedGEMM.dir/test.cpp.o CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o -o BlockedGEMM 
