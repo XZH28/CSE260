@@ -69,47 +69,31 @@ include CMakeFiles/BlockedGEMM.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BlockedGEMM.dir/flags.make
 
-CMakeFiles/BlockedGEMM.dir/test.cpp.o: CMakeFiles/BlockedGEMM.dir/flags.make
-CMakeFiles/BlockedGEMM.dir/test.cpp.o: /home/zihan/Research/CPP/cse260/p1/test.cpp
-CMakeFiles/BlockedGEMM.dir/test.cpp.o: CMakeFiles/BlockedGEMM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zihan/Research/CPP/cse260/p1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockedGEMM.dir/test.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlockedGEMM.dir/test.cpp.o -MF CMakeFiles/BlockedGEMM.dir/test.cpp.o.d -o CMakeFiles/BlockedGEMM.dir/test.cpp.o -c /home/zihan/Research/CPP/cse260/p1/test.cpp
+CMakeFiles/BlockedGEMM.dir/main.cpp.o: CMakeFiles/BlockedGEMM.dir/flags.make
+CMakeFiles/BlockedGEMM.dir/main.cpp.o: /home/zihan/Research/CPP/cse260/p1/main.cpp
+CMakeFiles/BlockedGEMM.dir/main.cpp.o: CMakeFiles/BlockedGEMM.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zihan/Research/CPP/cse260/p1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BlockedGEMM.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlockedGEMM.dir/main.cpp.o -MF CMakeFiles/BlockedGEMM.dir/main.cpp.o.d -o CMakeFiles/BlockedGEMM.dir/main.cpp.o -c /home/zihan/Research/CPP/cse260/p1/main.cpp
 
-CMakeFiles/BlockedGEMM.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockedGEMM.dir/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zihan/Research/CPP/cse260/p1/test.cpp > CMakeFiles/BlockedGEMM.dir/test.cpp.i
+CMakeFiles/BlockedGEMM.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockedGEMM.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zihan/Research/CPP/cse260/p1/main.cpp > CMakeFiles/BlockedGEMM.dir/main.cpp.i
 
-CMakeFiles/BlockedGEMM.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockedGEMM.dir/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zihan/Research/CPP/cse260/p1/test.cpp -o CMakeFiles/BlockedGEMM.dir/test.cpp.s
-
-CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o: CMakeFiles/BlockedGEMM.dir/flags.make
-CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o: /home/zihan/Research/CPP/cse260/p1/bgemm_naive.cpp
-CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o: CMakeFiles/BlockedGEMM.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zihan/Research/CPP/cse260/p1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o -MF CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o.d -o CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o -c /home/zihan/Research/CPP/cse260/p1/bgemm_naive.cpp
-
-CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zihan/Research/CPP/cse260/p1/bgemm_naive.cpp > CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.i
-
-CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zihan/Research/CPP/cse260/p1/bgemm_naive.cpp -o CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.s
+CMakeFiles/BlockedGEMM.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BlockedGEMM.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zihan/Research/CPP/cse260/p1/main.cpp -o CMakeFiles/BlockedGEMM.dir/main.cpp.s
 
 # Object files for target BlockedGEMM
 BlockedGEMM_OBJECTS = \
-"CMakeFiles/BlockedGEMM.dir/test.cpp.o" \
-"CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o"
+"CMakeFiles/BlockedGEMM.dir/main.cpp.o"
 
 # External object files for target BlockedGEMM
 BlockedGEMM_EXTERNAL_OBJECTS =
 
-BlockedGEMM: CMakeFiles/BlockedGEMM.dir/test.cpp.o
-BlockedGEMM: CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o
+BlockedGEMM: CMakeFiles/BlockedGEMM.dir/main.cpp.o
 BlockedGEMM: CMakeFiles/BlockedGEMM.dir/build.make
 BlockedGEMM: CMakeFiles/BlockedGEMM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zihan/Research/CPP/cse260/p1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BlockedGEMM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zihan/Research/CPP/cse260/p1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BlockedGEMM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BlockedGEMM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

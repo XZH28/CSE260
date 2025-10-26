@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/zihan/Research/CPP/cse260/p1/build",
+  "command": "/usr/bin/c++  -I/home/zihan/Research/CPP/cse260/p1 -O3 -DNDEBUG -std=gnu++17 -O3 -march=native -funroll-loops -o CMakeFiles/BlockedGEMM.dir/main.cpp.o -c /home/zihan/Research/CPP/cse260/p1/main.cpp",
+  "file": "/home/zihan/Research/CPP/cse260/p1/main.cpp",
+  "output": "CMakeFiles/BlockedGEMM.dir/main.cpp.o"
+}
+]

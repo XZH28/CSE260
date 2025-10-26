@@ -8,8 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zihan/Research/CPP/cse260/p1/bgemm_naive.cpp" "CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o" "gcc" "CMakeFiles/BlockedGEMM.dir/bgemm_naive.cpp.o.d"
-  "/home/zihan/Research/CPP/cse260/p1/test.cpp" "CMakeFiles/BlockedGEMM.dir/test.cpp.o" "gcc" "CMakeFiles/BlockedGEMM.dir/test.cpp.o.d"
+  "/home/zihan/Research/CPP/cse260/p1/main.cpp" "CMakeFiles/BlockedGEMM.dir/main.cpp.o" "gcc" "CMakeFiles/BlockedGEMM.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
